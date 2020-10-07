@@ -1,0 +1,12 @@
+operations:
+    restURL: https://api.github.com/search/repositories?q=language
+server.port: 7074
+
+logging:
+  level:
+    ROOT: DEBUG
+    com.anthem: DEBUG
+    
+
+application:
+    name: restapp
